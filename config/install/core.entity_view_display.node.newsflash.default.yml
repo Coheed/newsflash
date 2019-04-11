@@ -1,0 +1,23 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.newsflash.body
+    - node.type.newsflash
+  module:
+    - text
+    - user
+id: node.newsflash.default
+targetEntityType: node
+bundle: newsflash
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

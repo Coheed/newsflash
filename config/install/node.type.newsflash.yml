@@ -1,9 +1,24 @@
-langcode: en
+langcode: de
 status: true
 dependencies:
   enforced:
     module:
       - newsflash # This is the name of the module we're using for this example
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    publish_enable: true
+    publish_past_date: schedule
+    publish_required: false
+    publish_revision: false
+    publish_touch: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: false
+    fields_display_mode: vertical_tab
 name: 'Newsflash'
 type: newsflash
 description: 'Use <em>newsflash</em> content to get to Drupal 8 development better.'
