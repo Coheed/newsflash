@@ -1,0 +1,7 @@
+newsflash.content:
+  path: '/newsflash'
+  defaults:
+    _controller: '\Drupal\newsflash\Controller\NewsflashController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'

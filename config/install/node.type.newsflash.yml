@@ -1,0 +1,13 @@
+type: newsflash
+name: Newsflash
+description: 'Use <em>newsflash</em> content to get to Drupal 8 development better.'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en
+dependencies:
+  enforced:
+    module:
+      - newsflash # This is the name of the module we're using for this example

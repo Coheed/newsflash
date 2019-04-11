@@ -1,10 +1,10 @@
 <?php
 /**
  * @file
- * Contains \Drupal\hello_world\Controller\HelloController.
+ * Contains \Drupal\newsflash\Controller\NewsflashController.
  */
-namespace Drupal\hello_world\Controller;
-class HelloController {
+namespace Drupal\newsflash\Controller;
+class NewsflashController {
   public function content() {
     return array(
       '#type' => 'markup',
